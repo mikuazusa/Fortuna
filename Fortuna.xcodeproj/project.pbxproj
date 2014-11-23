@@ -13,6 +13,8 @@
 		E1212EB719F7FF9500969EEE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1212EB619F7FF9500969EEE /* Images.xcassets */; };
 		E1212EBA19F7FF9500969EEE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1212EB819F7FF9500969EEE /* LaunchScreen.xib */; };
 		E1212EC619F7FF9500969EEE /* FortunaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1212EC519F7FF9500969EEE /* FortunaTests.swift */; };
+		E1212ED919FD514500969EEE /* negativeQuotes.json in Resources */ = {isa = PBXBuildFile; fileRef = E1212ED719FD514500969EEE /* negativeQuotes.json */; };
+		E1212EDA19FD514500969EEE /* positiveQuotes.json in Resources */ = {isa = PBXBuildFile; fileRef = E1212ED819FD514500969EEE /* positiveQuotes.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		E1212EBF19F7FF9500969EEE /* FortunaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FortunaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1212EC419F7FF9500969EEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1212EC519F7FF9500969EEE /* FortunaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FortunaTests.swift; sourceTree = "<group>"; };
+		E1212ED719FD514500969EEE /* negativeQuotes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = negativeQuotes.json; sourceTree = "<group>"; };
+		E1212ED819FD514500969EEE /* positiveQuotes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = positiveQuotes.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		E1212EAD19F7FF9400969EEE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E1212ED719FD514500969EEE /* negativeQuotes.json */,
+				E1212ED819FD514500969EEE /* positiveQuotes.json */,
 				E1212EAE19F7FF9400969EEE /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -194,7 +200,9 @@
 			files = (
 				E1212EB519F7FF9500969EEE /* Main.storyboard in Resources */,
 				E1212EBA19F7FF9500969EEE /* LaunchScreen.xib in Resources */,
+				E1212EDA19FD514500969EEE /* positiveQuotes.json in Resources */,
 				E1212EB719F7FF9500969EEE /* Images.xcassets in Resources */,
+				E1212ED919FD514500969EEE /* negativeQuotes.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +413,7 @@
 				E1212ECB19F7FF9500969EEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E1212ECC19F7FF9500969EEE /* Build configuration list for PBXNativeTarget "FortunaTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +422,7 @@
 				E1212ECE19F7FF9500969EEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
